@@ -13,6 +13,7 @@ export default defineConfig({
 			'/reports': 'https://traccar-reports.pages.dev',
 			'/traccar': 'https://frotaweb-traccar.pages.dev',
 			'/api/socket': 'ws://gps.rastreosat.com.br',
+			'/api/reports': 'http://178.156.172.139',
 			'/api': 'http://gps.rastreosat.com.br',
 		},
 	},
