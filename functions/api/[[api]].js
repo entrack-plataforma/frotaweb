@@ -3,5 +3,6 @@ export const onRequest = ({request, env}, cf) => {
     url.host = env.TRACCAR_SERVER || 'gps.frotaweb.com'
     url.protocol = 'http:'
     url.port = 80
+    console.log(performance.now())
     return fetch(new Request(url, request), cf)
 }
